@@ -1,0 +1,25 @@
+.body-login {
+    display:grid;
+    grid-template-columns: 60% auto;
+    height: 100vh;
+}
+.title-login {
+    background-color: #F7F7F7;    
+    position: relative; 
+    z-index: -1;
+}
+
+.form-login {
+    background-color: #F5F4F4;
+}
+
+.title-login, .form-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:inherit;
+}
+
+.title-login .box-title, .form-login .box-login {
+    width:50%;
+}

@@ -1,0 +1,44 @@
+.form-login .box-login {    
+    margin-left: -15%;
+    padding: 20px 20px;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 5px;
+    background-color: rgb(248, 249, 250);
+}
+
+.box-login input {
+    border-radius: 5px;    
+    padding: 10px;
+    border: 1px solid #F4F1F1;
+    outline: none;
+    width: 90%;
+}
+
+.form-username, .form-password {
+    margin-bottom: 20px;    
+}
+
+.label-username, .label-password {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #404040;
+    display: block;
+}
+
+.button-signin {
+    background-color: #4763BB;
+    color: white;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-signin:hover {
+    cursor: pointer;
+}
+
+.error-input {
+    color: red;
+}

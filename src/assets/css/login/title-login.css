@@ -1,0 +1,13 @@
+.title-login .box-title {
+    right: 15%;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+}
+span.title {
+    font-size: 4rem;
+    color: #4763BB;
+}
+p.title-description{
+    color: #7F7D7D;
+}

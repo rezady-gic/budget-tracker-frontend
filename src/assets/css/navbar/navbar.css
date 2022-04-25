@@ -1,0 +1,60 @@
+.after-login {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;  
+  background-color: #DBDCDC;
+  position: relative;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4763BB;
+    flex-grow: auto;
+  }
+  
+li.menu {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.menu a:hover:not(.active) {
+  background-color: #7B8AB8;
+  cursor: pointer;
+}
+
+li.menu:last-child {
+  float: right;
+  margin-right: 1.5rem;
+  display: block;
+}
+
+li.menu:first-child a:hover:not(.active) {
+  background-color: inherit;
+}
+
+.clicked {
+  background-color: #5CAED1;
+}
+
+.body-table {
+  flex-grow: 1;
+  width: 70%;
+  margin: auto;  
+}
+
+.sign-out {
+  position: absolute;
+  background:blue;
+  top: 0;
+  right: 0;
+  display: block;
+}
